@@ -38,7 +38,7 @@ export default function Upload() {
             setDistrict("Geolocation not supported");
         }
     }, []);
-
+s
     const handleFileChange = (e) => {
         setFile(e.target.files[0]);
     };
